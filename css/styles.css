@@ -1,0 +1,12 @@
+body {
+  color: #000;
+}
+
+/* main color text #000
+sec color text #222
+3 color text #fff
+main color  #F9B300
+*/
+.list {
+  list-style: none;
+}
