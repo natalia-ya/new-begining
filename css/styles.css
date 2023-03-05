@@ -1,12 +1,31 @@
-body {
-  color: #000;
+:root {
+  --primary-text-color: #000000;
+  --secondary-text-color: #ffffff;
+  --accent-color: #f9b300;
 }
 
-/* main color text #000
-sec color text #222
-3 color text #fff
-main color  #F9B300
-*/
+body {
+  color: var(--primary-text-color);
+  background: #e5e5e5;
+}
+
 .list {
   list-style: none;
+}
+
+.section-title {
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 62px;
+}
+
+.button {
+  background: var(--accent-color);
+  border-radius: 5px;
+  color: var(--secondary-text-color);
+}
+
+/* Header */
+.site-nav:hover,
+.site-nav:focus {
 }
