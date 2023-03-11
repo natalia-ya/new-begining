@@ -5,46 +5,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CofeeShop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Header -->
+
     <header class="header">
-      <nav class="header-nav">
-        <a href="./index.html" title="Milla" class="header-logo">
-          <img src="logo.svg" alt="Logo" />
-        </a>
-        <ul class="site-nav list">
-          <li class="link"><a href="">Каталог товарів</a></li>
-          <li class="link"><a href="">Блог</a></li>
-          <li class="link"><a href="">Контакти</a></li>
-        </ul>
-        <ul class="aut-nav list">
-          <li class="link"><a href=""></a> <img src="./search.svg" alt="Search icon" /></li>
-          <li class="link"><a href=""></a><img src="./bucket.svg" alt="Bucket icon" /></li>
-          <li class="link"><a href=""></a><img src="./profile.svg" alt="Profile icon" /></li>
-        </ul>
-      </nav>
+      <div class="container">
+        <nav class="header-nav">
+          <a href="./index.html" title="Milla" class="header-logo link">
+            <img src="logo.svg" alt="Logo" />
+          </a>
+          <ul class="site-nav list">
+            <li class="site-nav-item"><a href="" class="site-nav-link link">Catalog</a></li>
+            <li class="site-nav-item"><a href="" class="site-nav-link link">Blog</a></li>
+            <li class="site-nav-item"><a href="" class="site-nav-link link">Contacts</a></li>
+          </ul>
+          <ul class="aut-nav list">
+            <li class="aut-nav-item">
+              <a href="" class="aut-nav-link link"><img src="./search.svg" alt="Search icon" /></a>
+            </li>
+            <li class="aut-nav-item">
+              <a href="" class="aut-nav-link link"><img src="./bucket.svg" alt="Bucket icon" /></a>
+            </li>
+            <li class="aut-nav-item">
+              <a href="" class="aut-nav-link link"
+                ><img src="./profile.svg" alt="Profile icon"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <!-- Hero -->
-    <section class="section">
-      <h1>Свіжообсмажена кава</h1>
-      <p>Кава львівського обсмажування з різних країн зростання з доставкою додому.</p>
-      <p>Ми обсмажуємо каву кожні вихідні.</p>
-      <a href="" target="_blank" rel="noreferrer noopener">Переглянути каталог</a>
+
+    <section class="section hero">
+      <div class="container hero-container">
+        <h1 class="hero-title">Freshly roasted coffee</h1>
+        <div class="hero-desc">
+          <p class="hero-desc-text">
+            Coffee roasted in Lviv from different countries of origin with home delivery.
+          </p>
+          <p class="hero-desc-text">We roast coffee every weekend.</p>
+        </div>
+        <a href="" class="hero-link link button" target="_blank" rel="noreferrer noopener"
+          >View the catalog</a
+        >
+      </div>
     </section>
 
     <!-- Catalog -->
 
     <section class="section">
-      <h2 class="section-title">Каталоги нашої продукції</h2>
-      <ul class="list">
-        <li><a href="">Свіжообсмажена кава</a></li>
-        <li><a href="">Чай та кавові напої</a></li>
-        <li><a href="">Продукція для вендінгу</a></li>
-        <li><a href="">Здорове харчування</a></li>
-      </ul>
+      <div class="container">
+        <h2 class="section-title">Каталоги нашої продукції</h2>
+        <ul class="list">
+          <li><a href="">Свіжообсмажена кава</a></li>
+          <li><a href="">Чай та кавові напої</a></li>
+          <li><a href="">Продукція для вендінгу</a></li>
+          <li><a href="">Здорове харчування</a></li>
+        </ul>
+      </div>
     </section>
 
     <!-- Discount -->
