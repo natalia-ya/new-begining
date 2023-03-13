@@ -23,6 +23,12 @@ p {
   margin-bottom: 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .container {
   max-width: 1700px;
   padding-left: 20px;
@@ -38,13 +44,14 @@ p {
 
 .link {
   display: block;
+  color: inherit;
   text-decoration: none;
 }
 
 .section-title {
   font-weight: 900;
   font-size: 50px;
-  line-height: 62px;
+  line-height: 1.24;
 }
 
 .button {
@@ -71,7 +78,6 @@ p {
   padding-top: 50px;
   padding-bottom: 50px;
 
-  color: inherit;
   font-weight: 500;
   font-size: 25px;
   line-height: 1.16;
@@ -108,7 +114,7 @@ p {
 
 .hero-container {
   padding-top: 120px;
-  padding-bottom: 275px;
+  padding-bottom: 250px;
 }
 
 .hero-title {
@@ -142,3 +148,70 @@ p {
 }
 
 /* Catalog */
+.catalog-title {
+  margin-bottom: 80px;
+}
+
+.catalog-list {
+  display: flex;
+}
+
+.catalog-item {
+  background: #ffffff;
+  box-shadow: 0px 0px 30px rgba(146, 146, 146, 0.2);
+  border-radius: 20px;
+  width: 400px;
+  padding: 50px 50px 145px;
+}
+
+.catalog-item:not(:last-child) {
+  margin-right: 20px;
+}
+.catalog-img-title {
+  text-align: center;
+}
+
+.catalog-img {
+  margin: 0 auto;
+}
+
+/* Discount */
+
+.discount {
+  padding-top: 90px;
+}
+
+.discount-title {
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 1.24;
+  text-align: right;
+  margin-bottom: 50px;
+}
+
+.discount-desc {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 1.3;
+  text-align: end;
+  margin-bottom: 80px;
+}
+
+.discount-list {
+  display: flex;
+}
+
+.discount-item {
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(146, 146, 146, 0.25);
+  border-radius: 20px;
+}
+
+.discount-prod {
+  display: flex;
+}
+
+/* Benefits */
+.benefits {
+  display: flex;
+}
