@@ -243,6 +243,13 @@ img {
 .benefits-title {
   margin-bottom: 80px;
 }
+
+.benefits-img {
+  background-image: url('../img/benefits_img.png');
+  width: 750px;
+  height: 600px;
+}
+
 .benefits-item:not(:last-child) {
   margin-bottom: 60px;
 }
@@ -256,6 +263,16 @@ img {
   font-weight: 500;
   font-size: 25px;
   line-height: 1.3;
+}
+
+.benefits-item::before {
+  content: '';
+  display: inline-block;
+  height: 85px;
+  width: 85px;
+  background-image: url('../img/Group\ 40.png');
+  margin-right: 50px;
+  background-repeat: no-repeat;
 }
 
 /* Story */
